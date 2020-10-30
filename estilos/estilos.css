@@ -1,0 +1,259 @@
+/* Universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../imagenes/pattern.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+/* Encabezado */
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color:rgb(31, 52, 56);
+    font-size: 1.5em;
+    font-variant: small-caps;
+    border-bottom: 5px solid black;
+    position: fixed;
+    z-index: 3000;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+
+}
+
+header nav a {
+    width: 150px;
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Presentacion */
+
+#Presentacion {
+    width: 100%;
+    height: 500px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 156, 131, 0.7);
+
+}
+
+#Presentacion1 , #Presentacion2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Presentacion1 p {
+    color: rgb(240, 248, 255);
+    font-size: 2em;
+}
+
+#Presentacion1 .nombre {
+    color: rgb(127, 255, 212);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#Presentacion1 span {
+    display: inline-block;
+    width: 420px;
+    background-color: rgb(31, 52, 56);
+    text-align: center;
+}
+
+#Presentacion1 a img {
+    width: 30px;
+}
+
+#Presentacion1 a {
+    text-decoration: none;
+}
+
+#Presentacion2 img {
+    width: 250px;
+    height: 310px;
+    border-radius: 40%;
+    border: 5px solid rgb(31, 52, 56);
+    margin-top: auto;
+}
+
+/* Sobre Mi */
+
+#SobreMi {
+    background-color: rgba(127, 255, 212,0.6);
+    width: 100%;
+    height: 500px;
+    color: #1f3438;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SobreMi1 img {
+    width: 250px;
+    height: 320px;
+    border-radius: 40%;
+    border: 5px solid #1f3438;
+    margin-top: auto;
+
+}
+
+#SobreMi1 , #SobreMi2 {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#SobreMi2 {
+    width: 50%;
+    text-align: justify;
+}
+
+#SobreMi2 h2 {
+    color: rgb(0, 156, 131);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+#SobreMi2 .descripcion {
+    color: rgb(31, 52, 56);
+    font-size: 1.5em;
+    font-weight: 400;
+} 
+
+/* Skills */
+
+#Skills {
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 156, 131, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Skills h2 {
+    color: rgb(127, 255, 212);
+    font-size: 3em;
+    font-weight: 700;
+    margin-right: 100px;
+}
+
+#Skills img {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.css3 {
+    position: relative;
+    top: 60px;
+    z-index: 1;
+}
+
+/* Proyectos */
+
+#Proyectos {
+    background-color: rgba(127, 255, 212,0.6);
+    width: 100%;
+    height: 500px;
+}
+#Proyectos h2 {
+    color: rgb(0, 156, 131);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* Contacto */
+
+#Contacto {
+    background-color: rgba(0, 156, 131,0.7);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contacto div {
+    width: 50%;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2%;
+    padding: 3rem;
+    align-content: center;
+}
+
+#Contacto div h2 {
+    color: rgb(127, 255, 212);
+    font-size: 3em;
+    font-weight: 700;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#Contacto div form input, textarea {
+    width: 90%;
+    height: 30px;
+    background-color: rgb(128, 255, 212);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column wrap; 
+}
+
+#Contacto div form button {
+    width: 40%;
+    height: 40px;
+    background-color: rgb(0, 156, 131);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(31, 52, 56);
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(31, 52, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div p {
+    color: rgb(240, 248, 255);
+    font-weight: bold;
+}
+
+footer div a img {
+    width: 50px;
+}
