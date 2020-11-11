@@ -78,7 +78,7 @@ header nav a {
 
 #Presentacion1 span {
     display: inline-block;
-    width: 420px;
+    width: auto;
     background-color: rgb(31, 52, 56);
     text-align: center;
 }
@@ -185,22 +185,23 @@ header nav a {
         font-size: 2.5em;
         font-weight: 700;
         text-align: center;
-        padding-top: 5px;
+        padding-top: 10px;
+        margin-bottom: 20px;
     }
 
     .ProyectoPadre {
         display: flex;
         justify-content: space-between;
         width: 80%;
-        margin: auto;
-        padding-top: 50px;
-        
+        padding: 10px;
+        margin:auto;
     }
 
     .MuestraProyectos {
         width: 300px;
-        height: 200px;
+        height: 300px;
         background-color: black;
+        margin-top: auto;
     }
 /* Contacto */
 
@@ -281,7 +282,10 @@ header nav a {
         width: 50px;
     }
 
+/* A PARTIR DE AQUI ES CSS PARA PANTALLAS DE DISPOSITIVOS MOVILES*/
+
 @media (max-width: 768px){
+    
     /* General */
 
     main {
@@ -329,10 +333,6 @@ header nav a {
     
     }
 
-    #Presentacion1 span {
-        width: auto;
-    }
-
     #Presentacion1 , #Presentacion2 {
         margin-left: 2%;
         margin-right: 2%;
@@ -369,10 +369,10 @@ header nav a {
     /* Skills */
 
     #Skills {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #Skills h2 {
@@ -397,9 +397,21 @@ header nav a {
         padding-bottom: 10px;
     }
 
+    #Proyectos h2 {
+        text-align: center;
+    }
+
     .ProyectoPadre {
-        flex-direction: column;
+        flex-direction: row;
+        background-color: blueviolet;
         
+    }
+
+    .MuestraProyectos {
+        width: 150px;
+        height: 100px;
+        background-color: black;
+        align-items: center;
     }
     /* Contacto */
 
@@ -407,14 +419,15 @@ header nav a {
         width: auto;
         flex-direction: column;
         height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #Contacto div {
+        width: 85%;
         height: auto;
         border-radius: 2%;
-        padding: 3rem;
+        padding: 1.5rem;
         
     }
 
@@ -427,16 +440,17 @@ header nav a {
 
     footer {
         width: 100%;
-        flex-direction: column;
         height: auto;
     }
 
     footer div {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     footer div a img {
         width: 30px;
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
 
     
