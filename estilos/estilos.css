@@ -374,11 +374,13 @@ header nav a {
         height: auto;
         padding-top: 20px;
         padding-bottom: 20px;
+        width: 100%;
     }
 
     #Skills h2 {
         text-align: center;
         font-size: 2em;
+        margin-right: 20px;
     }
 
     #Skills img {
