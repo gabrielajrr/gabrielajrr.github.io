@@ -203,6 +203,7 @@ header nav a {
         background-color: black;
         margin-top: auto;
     }
+
 /* Contacto */
 
     #Contacto {
@@ -377,6 +378,7 @@ header nav a {
 
     #Skills h2 {
         text-align: center;
+        font-size: 2em;
     }
 
     #Skills img {
@@ -391,7 +393,6 @@ header nav a {
     /* Proyectos */
 
     #Proyectos {
-        flex-direction: column;
         height: auto;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -399,17 +400,17 @@ header nav a {
 
     #Proyectos h2 {
         text-align: center;
+        font-size: 2em;
     }
 
     .ProyectoPadre {
         flex-direction: row;
-        background-color: blueviolet;
         
     }
 
     .MuestraProyectos {
-        width: 150px;
-        height: 100px;
+        width: 120px;
+        height: 80px;
         background-color: black;
         align-items: center;
     }
@@ -424,16 +425,33 @@ header nav a {
     }
 
     #Contacto div {
-        width: 85%;
+        width: 75%;
         height: auto;
         border-radius: 2%;
-        padding: 1.5rem;
-        
+        padding: 1.5rem;   
+    }
+
+    #Contacto div h2 {
+        font-size: 2em;
     }
 
     #Contacto div form {
         flex-direction: column;
         
+    }
+
+    #Contacto div form input, textarea {
+        width: 80%;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Contacto div form button {
+        width: 40%;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Footer */
